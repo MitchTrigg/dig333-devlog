@@ -17,6 +17,18 @@ BELOW IS A WEEKLY TEMPLATE. COPY/PASTE IT TO ADD A WEEK. SEE ASSIGNMENTS FOR DET
 https://docs.google.com/document/d/1PAoPz-3vDPFWS5q9RHRb-dC7T4earpFXJW8w6v9wfZ0/edit
 -->
 
+## Week 1
+
+### Context
+
+- The TedX video by Tom Igoe mentions alot of objects that have been created with his Arduino project. There have been many open sourced machines that have been created that are similar to the Arduino. There are also many bad things that have come out of this tech revolution like credit card skimmers.
+- "The devices that we make and the devices that we use, what they do matters less than the relationships that we make through them and how they change our relationships."
+- There are so many positive uses that came out of physical computing.
+- Do the bad computers ever outweigh the good computers?
+
+
+
+
 
 
 ## Week 2
