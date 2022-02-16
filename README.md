@@ -107,3 +107,42 @@ https://docs.google.com/document/d/1PAoPz-3vDPFWS5q9RHRb-dC7T4earpFXJW8w6v9wfZ0/
     1. Text, photos, etc.
     1. Describe the most important thing you learned (to share in class)
     1. Write a quiz question (which we will discuss in class)
+
+1. Necessary Items For Chapter 2
+    1. Insert image of tools
+    2. Above from left to right the tool names are, pliers, wire stripper, and wire cutter.
+    3. I couln't find any wire, but you just run it through the whole with the correct gauge and pull it hard with a pliers.
+    4. I couln't find the capacitor, transistor, switch nor the relays, but there were trimpots. I do know what the other four look like though.
+    5. Are you able to cut a wire with the wire stripper?
+
+2. Experiment 6: Very Simple Switching
+    1. The SPST switches have two terminals, with options to either connect the two terminals, or to not connect them. The SPDT switch has three terminals, with options to either connect the middle pole to the left throw or to connect the middle pole to the right throw.
+    2. ![circuit](https://user-images.githubusercontent.com/89601540/154182960-c2e8580e-5413-4804-b0fa-d2d38fa6cfc5.PNG)
+
+3. Experiment 7: Relay-Driven LED's
+    1. 
+
+
+
+
+
+
+## Week 4
+
+
+### Context
+
+- Summarize the article(s) in 3-4 sentences. Also include...
+- 1 quote from the reading(s)
+- 1 related comment on the reading(s)
+- 1 related follow-up question (what question does it bring up for you?)
+
+
+### Experiments
+
+<!-- List each Platt experiment / Monk recipe outcome, adding notes, photos, schematics, captions to show your work. -->
+
+1. Name of the experiment
+    1. Text, photos, etc.
+    1. Describe the most important thing you learned (to share in class)
+    1. Write a quiz question (which we will discuss in class)
