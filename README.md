@@ -42,6 +42,8 @@ https://docs.google.com/document/d/1PAoPz-3vDPFWS5q9RHRb-dC7T4earpFXJW8w6v9wfZ0/
 
 ### Experiments
 
+### Platt Chapter 1: Experiencing Electricity
+
 1. Experiment 1: Taste the Power!
     1. ![image](https://user-images.githubusercontent.com/89601540/153111022-e5c88fc5-ed34-4256-9568-f4d352618187.png)
 
@@ -86,17 +88,43 @@ https://docs.google.com/document/d/1PAoPz-3vDPFWS5q9RHRb-dC7T4earpFXJW8w6v9wfZ0/
         a. Current increases as well as power.
         
     
+### Monk Chapter 1: Setup and Management
 
-
+1. Selecting a Model of Raspberry Pi
+    1. Different uses for Raspberry Pi
+        a. Raspberry Pi 3 B+ is a good general purpose pi.
+        b. Raspberry Pi Zero W is good for single projects.
+2. Enclosing a Raspberry Pi
+    1. Connections on the underside of the circuit board could easily become shorted.
+3. Selecting a Power Supply
+    1. The standard operating voltage is 5V.
+    2. You would like at least 1A of current, if you have more. The raspberry pi will only use as much as it needs so it won't be wasted.
+    3. The raspberry pis can become hot and might be damaged, or just simply fail.
+4. Selecting an Operating System
+    1. Raspbian is the standard distributor of the raspberry pis.
+5. Installing an Operating System Without NOOBS
+    1. Don't use the preinstalled images or your raspberry pi won't work well.
+6. Using a Composite Video Monitor/TV
+    1. There is HDMI and composite outputs. HDMI is a much higher quality of output than the composite.
+7. Maximizing Performance
+    1. Pro - Makes your raspberry pi faster.
+    2. Con - It consumes more power and risks overheating
+8. Changing Your Password
+    1. Default password is raspberry and you can change it using the configuration utility.
+9. Shutting Down Your Raspberry Pi
+    1. Sudo is a raspberry pi command used to give instructions to your raspberry pi.
+    2. Type the command $ sudo reboot
+    3. Pulling the plug can corrupt some files that were writing to the sd card.
 
 ## Week 3
 
 ### Context
 
-- Summarize the article(s) in 3-4 sentences. Also include...
-- 1 quote from the reading(s)
-- 1 related comment on the reading(s)
-- 1 related follow-up question (what question does it bring up for you?)
+- The "Critical Engineering Manifesto" is a bunch of rules that engineers are supposed to follow that also describe the job they do. The "Artistic Profile: Julian Oliver" is an interview of Julian Oliver where he comments on open source programs. "All Watched Over by Machines of Loving Grace" tells us about how Rand affected the economy.
+- "The Critical Engineer considers any technology depended upon to be both a challenge and a threat. The greater the dependence on a technology the greater the need to study and expose its inner workings, regardless of ownership or legal provision."
+- I thought this quote was interesting because of the development of AI and how there are alot of situations where computers can complete tasks better than humans.
+- What are some of the downfalls of an overreliance on AI.
+
 
 
 ### Experiments
@@ -108,13 +136,15 @@ https://docs.google.com/document/d/1PAoPz-3vDPFWS5q9RHRb-dC7T4earpFXJW8w6v9wfZ0/
     1. Describe the most important thing you learned (to share in class)
     1. Write a quiz question (which we will discuss in class)
 
+### Platt Chapter 2: Switching Basics and More
+
 1. Necessary Items For Chapter 2
-    1. Insert image of tools
+    1. ![IMG_8176](https://user-images.githubusercontent.com/89601540/155003566-ee53f7d6-b80e-4889-ac82-86c6cc79dc79.jpg)
+
     2. Above from left to right the tool names are, pliers, wire stripper, and wire cutter.
     3. I couln't find any wire, but you just run it through the whole with the correct gauge and pull it hard with a pliers.
     4. I couln't find the capacitor, transistor, switch nor the relays, but there were trimpots. I do know what the other four look like though.
     5. Are you able to cut a wire with the wire stripper?
-
 2. Experiment 6: Very Simple Switching
     1. The SPST switches have two terminals, with options to either connect the two terminals, or to not connect them. The SPDT switch has three terminals, with options to either connect the middle pole to the left throw or to connect the middle pole to the right throw.
     2. ![circuit](https://user-images.githubusercontent.com/89601540/154182960-c2e8580e-5413-4804-b0fa-d2d38fa6cfc5.PNG)
@@ -124,6 +154,26 @@ https://docs.google.com/document/d/1PAoPz-3vDPFWS5q9RHRb-dC7T4earpFXJW8w6v9wfZ0/
 
 
 
+### Monk Chapter 2: Networking
+1. Introduction
+2. Connecting to a Wired Network
+    1. ssh pi@mitchpi
+3. Finding your IP Address
+    1. $ hostname -I
+    2. $ ifconfig
+4. Setting a Static IP Address
+5. Setting the Network Name of a Raspberry Pi
+    1. You can use the Raspberry Pi configuration tool by going to menu -> Preferences -> Raspberry Pi Configuration -> System.
+6. Setting Up a Wireless Connection
+    1. Network Icon -> Select the Wifi connection you want -> type in your password
+7. Connection with a Console Lead
+    1. Go to Menu -> Preferences -> Raspberry Pi Configuration -> Interface
+8. Controlling the Pi Remotely with SSH
+    1. Connecting - $ ssh pi@mitchpi
+    2. Disconnect - $ shutdown
+    3. $ sudo raspi-config configures your raspberry pi.
+    4. ls - lists all directories.
+    5. cd - traverses directories
 
 
 
