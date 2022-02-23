@@ -176,8 +176,144 @@ https://docs.google.com/document/d/1PAoPz-3vDPFWS5q9RHRb-dC7T4earpFXJW8w6v9wfZ0/
     5. cd - traverses directories
 
 
-
 ## Week 4
+
+
+### Context
+
+In "Pay for the Printer" by Philip K Dick, the setting takes place in a post apocalyptic Earth where Hydrogen bombs were dropped during a war. An alien race came to Earth and began printing new items based off of original copies, but it was not a sustainable solution, because eventually everything that was printed turns to pudding. "The Preserving Machine" also by Philip K Dick is about a machine that turns music into animals, but the animals adapted to nature and turned foul, turning the music foul with it. "I listened to the music. It was hideous. I have never heard anything like it. It was distorted, diabolical, without sense or meaning, except, perhaps, an alien, disconcerting meaning that should never have been there." I thought the stories by Dick were really interesting and thought provoking, even though both of them were pretty unrealistic. Considering the printing done in the first story, how relevant will 3D printing be in the future regarding cheap housing or easily printed products that can help alot of people for cheap.
+
+### Experiments
+
+### Monk Chapter 3: Operating system
+
+1. Introduction
+2. Browsing Files Graphically
+    1. Using the file manager, you can drag repositories from one repostiory to another.
+    2. Operates similarly to a Windows File Manager.
+3. Copying Files Onto a USB Flash Driver
+    1. The drive is mounted in /media/pi
+    2. If you want to copy a folder, you just drag the file onto the folder representing the flash drive.
+4. Starting A Terminal Session
+    1. Select the terminal icon in the RPI desktop.
+5. Navigating the File System Using a Terminal
+    1. Prompt: Gives a parameter
+    2. Path: File path between different directories
+    3. Root: The root directory
+    4. Home: The terminal directory
+    5. Tilde: Home directory
+    6. cd: Changes directory
+    7. ls: Lists all files in the directory
+    8. pwd: Shows the path from the current directory to the home directory
+6. Copying a File or Folder
+    1. $ cp myfile.txt myfile2.txt 
+    2. Creates a file named myfile and copies it into myfile2
+7. Renaming a File or Folder
+    1. $ mv myfile.txt myfile.rtf
+    2. Renames a file from myfile.txt to myfile.rtf.
+8. Editing a File
+    1. $ nano myfile
+    2. Allows you to edit myfile
+    3. Ctrl X: Saves and exits
+    4. Ctrl V: Next page, allows you to edit
+    5. Ctrl Y: Previous page, allows you to edit
+    6. Ctrl W: Searches for a page
+    7. Ctrl O: Writes the file
+9. Viewing the Contents of a File
+    1. $ cat myfile.txt
+    2. Displays the whole file
+    3. $ more myfile.txt
+    4. Displays one page of the file
+10. Creating a File Without Using an Editor
+    1. $ echo 'file contents here' > test.txt
+    2. Creates a file and allows you to edit.
+11. Creating a Directory
+    1. $ mkdir mydirectory
+    2. Creates a new directory called mydirectory
+12. Deleting a File or Directory
+    1. $ rm myfile.txt
+    2. Deletes file myfile.txt
+13. Performing Tasks with Superuser Privileges
+    1. Prefix a command with sudo to complete a task you normally can't.
+14. Understanding File Permissions
+    1. $ ls -l
+    2. Allows you to see the permissions which is the first block of code.
+    3. First section is the type of file
+    4. Second section is the owner who can either read or write the file.
+    5. Third section is the group which is groups of people that can read or write the file.
+    6. The final section specifies permissions for people who aren't the owner or in a specified group.
+15. Changing File Permissions
+    1. In case you want to allow someone to execute or edit a file they don't have permission for.
+16. Making a Screen Capture
+    1. $ scrot -s
+    2. Allows you to screenshot specified parts of your screen.
+17. Installing Software with apt-get
+    1. $ sudo apt-get install abiword
+    2. Installs the abiword software.
+19. Removing Software Installed with apt-get
+    1. $ sudo apt-get remove abiword
+    2. Removes the abiword software.
+20. Installing Python Packages with Pip
+    1. $ sudo pip install svgwrite
+    2. Installs the python package svgwrite.
+    3. $ sudo pip remove svgwrite
+    4. Removes the python package svgwrite.
+21. Fetching Files with the Command Line
+    1. $ wget "Internet Link"
+    2. Fetches the files from the link
+22. Fetching Source Code with Git
+    1. $ git clone "Git Link"
+    2. Copies git files.
+    3. Python file.py
+    4.  git remote "URL"
+    5.  git add
+    6.  git commit -m "your commit"
+    7.  git push
+23. Fetching this Book's Accompanying Code
+    1. git clone "book"      
+
+### Monk Chapter 5: Python Basics
+
+1. Introduction
+2. Deciding Between Python 2 and Python 3
+3. Editing Python Programs with Mu
+4. Using the Python Console
+5. Running Python Programs from the Terminal
+6. Assigning Names to Values (Variables)
+7. Displaying Output
+8. Reading User Input
+9. Arithmetic
+10. Creating String
+11. Concatenating (Joining) Strings
+12. Converting Numbers into Strings
+13. Converting Strings into Numbers
+14. Finding the Length of a String
+15. Finding the Position of One String Within Another
+16. Extracting Part of a String
+17. Replacing One String of Characters with Another Within a String
+18. Converting a String to Uppercase of Lowercase
+19. Running Commands Conditionally
+20. Comparing Values
+21. Logical Operators
+22. Repeating Instructions an Exact Number of Times
+23. Repeating Instructions Until Some Condition Changes
+24. Breaking Out of a Loop
+25. Defining a Function in Python
+
+
+
+## Week 5
+
+
+### Context
+
+- The article "Everying Thats Inside Your Iphone" by Brian Merchant describes the different elements that are used within an Iphone and how much is used. He breaks it down and comes up with the total raw cost of the materials to be a little over a dollar. He then describes where these materials come from which is from mines in poorer countries. A significant point is that these mines are also mined by children eventhough the conditions are awful and dangerous. The article "One Man's Nearly Impossible Task to Make a Toaster From Scratch" by Rachel Swaby is about a man that wanted to create a toaster from scratch using raw materials from the Earth. He broke down the cheapest toaster he could find and noticed there were hundreds of parts and materials within it. He ends up describing where he could find the materials he needed. The article "All Watched Over by Machines of Loving Grace" by Adam Curtis is about how altruism is defined by peoples genetics. He goes on to prove his theory using certain computer algorithms. 
+- Brian Merchant mentions, "In 2008 alone, sixty children were killed in mining accidents at Cerro Rico."
+- I thought it was crazy how complicated and dense Iphone components were.
+- Considering many people will buy the new Iphone every year, do you think some people will wait a couple years for a new Iphone if they new how the Iphones were created?
+
+
+## Week 1
 
 
 ### Context
