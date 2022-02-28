@@ -146,11 +146,31 @@ https://docs.google.com/document/d/1PAoPz-3vDPFWS5q9RHRb-dC7T4earpFXJW8w6v9wfZ0/
     4. I couln't find the capacitor, transistor, switch nor the relays, but there were trimpots. I do know what the other four look like though.
     5. Are you able to cut a wire with the wire stripper?
 2. Experiment 6: Very Simple Switching
-    1. The SPST switches have two terminals, with options to either connect the two terminals, or to not connect them. The SPDT switch has three terminals, with options to either connect the middle pole to the left throw or to connect the middle pole to the right throw.
+    1. The SPST switches have two terminals, with options to either connect the two terminals, or to not connect them. The SPDT switch has three terminals, with options to either connect the middle pole to the left throw or to connect the middle pole to the right throw. The pole is in the middle of the switch where the power is connected to.
     2. ![circuit](https://user-images.githubusercontent.com/89601540/154182960-c2e8580e-5413-4804-b0fa-d2d38fa6cfc5.PNG)
-
+    3. Insert image of the double switch 
 3. Experiment 7: Relay-Driven LED's
-    1. 
+    2. When I'm not pressing the button, the first LED is lit up.
+    3. Insert image of pressed button
+    4. When I am pressing the button, the second LED is lit up. When I release it, the first LED is lit up and the second goes out.
+    5. Insert image of no lights
+    6. This is the circuit I built
+4. Experiment 8: A Relay Oscillator
+    1. Think of a resistor as a faucet and the capacitor as a balloon that is filling up with water. The balloon stops filling with water when the pressure inside the balloon is equal to the pressure in the pipe, regardless of how quickly the balloon fills up. The capacitor quits charging when it's voltage is the same as the supply's voltage. The resistance between the power supply and capacitor determines how quickly the capacitor charges.
+    2. Capacitors that are large can hold a large voltage and can zap you if you touch it. 
+    3. Capacitors can blow up if they are connected with the wrong current direction. 
+    4. Insert image of the circuit with capacitor.
+    5. When I press the button, the second LED switches on and the first LED slowly switches off. 
+    6. When I was switching out capacitors, the time that the LED's took to dim changed. It changed quicker with smaller capacitors that hold a smaller voltage. It took longer to discharge on larger capacitors.
+5. Experiment 9: Time and Capacitors
+    1. Insert image of capacitor multimeter circuit
+    2. As I pushed and held the button, the circuit connected, which charged the capacitor. I could see the voltage increasing the longer I held the button down. When I released the button, the voltage slowly started to drop, discharging the capacitor.
+6. Experiment 10: Transistor Switching
+    1. Insert image of transistor off
+    2. This is the circuit containg a transistor LED and pushbutton. When I am not pressing on the button, the circuit is not complete and the LED is not on.
+    3. Insert image of transistor on
+    4. When I press on the button, the LED lights up. The transisor spits out a voltage but recieves voltage from two different spots.
+    
 
 
 
@@ -275,30 +295,85 @@ In "Pay for the Printer" by Philip K Dick, the setting takes place in a post apo
 ### Monk Chapter 5: Python Basics
 
 1. Introduction
-2. Deciding Between Python 2 and Python 3
-3. Editing Python Programs with Mu
-4. Using the Python Console
-5. Running Python Programs from the Terminal
-6. Assigning Names to Values (Variables)
-7. Displaying Output
-8. Reading User Input
-9. Arithmetic
-10. Creating String
-11. Concatenating (Joining) Strings
-12. Converting Numbers into Strings
-13. Converting Strings into Numbers
-14. Finding the Length of a String
-15. Finding the Position of One String Within Another
-16. Extracting Part of a String
-17. Replacing One String of Characters with Another Within a String
-18. Converting a String to Uppercase of Lowercase
-19. Running Commands Conditionally
-20. Comparing Values
-21. Logical Operators
-22. Repeating Instructions an Exact Number of Times
-23. Repeating Instructions Until Some Condition Changes
-24. Breaking Out of a Loop
-25. Defining a Function in Python
+    1. To find your raspberry pi desktop
+        - Open up your pi 
+            - ssh pi@mitchpi
+            - password = mitchpi
+        - hostname -I 
+            - gets your ip address.
+        - Open up remote desktop
+        - insert your raspberry pi ip address
+        - username is pi and password is mitchpi
+3. Deciding Between Python 2 and Python 3
+4. Editing Python Programs with Mu
+    1. Using Thonny instead of Mu.
+    2. Made the count.py file which counts from 1 to 9.
+5. Using the Python Console
+    1. Thonny had no REPL button, you just type 2 + 2 in the console.
+7. Running Python Programs from the Terminal
+8. Assigning Names to Values (Variables)
+    1. Assigned example variables
+    2. Don't have a type
+10. Displaying Output
+    1. print()
+12. Reading User Input
+13. Arithmetic
+14. Creating String
+15. Concatenating (Joining) Strings
+    1. S1 = 'abc'
+    2. S2 = 'def'
+    3. s = S1 + S2
+    4. print(s)
+17. Converting Numbers into Strings
+    1. str(123)
+19. Converting Strings into Numbers
+    1. int('-123')
+    2. int('1001',2) = 9
+        - Binary number
+    3. int('AFF0', 16) = 45040
+        - Converts hexadecimal number into integer
+21. Finding the Length of a String
+    1. len('abcdef') = 6
+23. Finding the Position of One String Within Another
+    1. s = 'abcdefghi'
+    2. s.find('def') = 3
+25. Extracting Part of a String
+    1. s = 'abcdefghi'
+    2. s[1:5] = 'bcde'   
+27. Replacing One String of Characters with Another Within a String
+    1. s.replace('S1', 'S2')
+        - Replaces the string S1 with the String S2 within the string s
+29. Converting a String to Uppercase of Lowercase
+    1. 'aBcDe'.upper() = 'ABCDE'
+    2. 'aBcDe'.lower() = 'abcde'
+31. Running Commands Conditionally
+    1. if x > 100
+    2. elif x < 10
+    3. else
+33. Comparing Values
+    1. Less than <
+    2. Greater than >
+    3. Less than or equal to <=
+    4. Greater than or equal to >=
+    5. Exactly equal to ==
+    6. Not equal to !=
+    7. 1 != 2 prints True
+35. Logical Operators
+    1. if x > 10 and x < 20
+        - print('x is in the middle')
+37. Repeating Instructions an Exact Number of Times
+    1. for i in range(1,11)
+        - print(i)
+        - prints numbers 1 through 10
+39. Repeating Instructions Until Some Condition Changes
+    1. while answer !='X'
+41. Breaking Out of a Loop
+    1. type break
+43. Defining a Function in Python
+    - def count_to_n(n):
+        - for i in range(1, n+1):
+            - print(i)
+    - count_to_n(5)
 
 
 
