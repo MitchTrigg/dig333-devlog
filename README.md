@@ -129,51 +129,6 @@ https://docs.google.com/document/d/1PAoPz-3vDPFWS5q9RHRb-dC7T4earpFXJW8w6v9wfZ0/
 
 ### Experiments
 
-<!-- List each Platt experiment / Monk recipe outcome, adding notes, photos, schematics, captions to show your work. -->
-
-1. Name of the experiment
-    1. Text, photos, etc.
-    1. Describe the most important thing you learned (to share in class)
-    1. Write a quiz question (which we will discuss in class)
-
-### Platt Chapter 2: Switching Basics and More
-
-1. Necessary Items For Chapter 2
-    1. ![IMG_8176](https://user-images.githubusercontent.com/89601540/155003566-ee53f7d6-b80e-4889-ac82-86c6cc79dc79.jpg)
-
-    2. Above from left to right the tool names are, pliers, wire stripper, and wire cutter.
-    3. I couln't find any wire, but you just run it through the whole with the correct gauge and pull it hard with a pliers.
-    4. I couln't find the capacitor, transistor, switch nor the relays, but there were trimpots. I do know what the other four look like though.
-    5. Are you able to cut a wire with the wire stripper?
-2. Experiment 6: Very Simple Switching
-    1. The SPST switches have two terminals, with options to either connect the two terminals, or to not connect them. The SPDT switch has three terminals, with options to either connect the middle pole to the left throw or to connect the middle pole to the right throw. The pole is in the middle of the switch where the power is connected to.
-    2. ![circuit](https://user-images.githubusercontent.com/89601540/154182960-c2e8580e-5413-4804-b0fa-d2d38fa6cfc5.PNG)
-    3. Insert image of the double switch 
-3. Experiment 7: Relay-Driven LED's
-    2. When I'm not pressing the button, the first LED is lit up.
-    3. Insert image of pressed button
-    4. When I am pressing the button, the second LED is lit up. When I release it, the first LED is lit up and the second goes out.
-    5. Insert image of no lights
-    6. This is the circuit I built
-4. Experiment 8: A Relay Oscillator
-    1. Think of a resistor as a faucet and the capacitor as a balloon that is filling up with water. The balloon stops filling with water when the pressure inside the balloon is equal to the pressure in the pipe, regardless of how quickly the balloon fills up. The capacitor quits charging when it's voltage is the same as the supply's voltage. The resistance between the power supply and capacitor determines how quickly the capacitor charges.
-    2. Capacitors that are large can hold a large voltage and can zap you if you touch it. 
-    3. Capacitors can blow up if they are connected with the wrong current direction. 
-    4. Insert image of the circuit with capacitor.
-    5. When I press the button, the second LED switches on and the first LED slowly switches off. 
-    6. When I was switching out capacitors, the time that the LED's took to dim changed. It changed quicker with smaller capacitors that hold a smaller voltage. It took longer to discharge on larger capacitors.
-5. Experiment 9: Time and Capacitors
-    1. Insert image of capacitor multimeter circuit
-    2. As I pushed and held the button, the circuit connected, which charged the capacitor. I could see the voltage increasing the longer I held the button down. When I released the button, the voltage slowly started to drop, discharging the capacitor.
-6. Experiment 10: Transistor Switching
-    1. Insert image of transistor off
-    2. This is the circuit containg a transistor LED and pushbutton. When I am not pressing on the button, the circuit is not complete and the LED is not on.
-    3. Insert image of transistor on
-    4. When I press on the button, the LED lights up. The transisor spits out a voltage but recieves voltage from two different spots.
-    
-
-
-
 ### Monk Chapter 2: Networking
 1. Introduction
 2. Connecting to a Wired Network
@@ -387,8 +342,136 @@ In "Pay for the Printer" by Philip K Dick, the setting takes place in a post apo
 - I thought it was crazy how complicated and dense Iphone components were.
 - Considering many people will buy the new Iphone every year, do you think some people will wait a couple years for a new Iphone if they new how the Iphones were created?
 
+### Experiments
 
-## Week 1
+### Platt Chapter 2: Switching Basics and More
+
+1. Necessary Items For Chapter 2
+    1. ![IMG_8176](https://user-images.githubusercontent.com/89601540/155003566-ee53f7d6-b80e-4889-ac82-86c6cc79dc79.jpg)
+
+    2. Above from left to right the tool names are, pliers, wire stripper, and wire cutter.
+    3. I couln't find any wire, but you just run it through the whole with the correct gauge and pull it hard with a pliers.
+    4. I couln't find the capacitor, transistor, switch nor the relays, but there were trimpots. I do know what the other four look like though.
+    5. Are you able to cut a wire with the wire stripper?
+2. Experiment 6: Very Simple Switching
+    1. The SPST switches have two terminals, with options to either connect the two terminals, or to not connect them. The SPDT switch has three terminals, with options to either connect the middle pole to the left throw or to connect the middle pole to the right throw. The pole is in the middle of the switch where the power is connected to.
+    2. ![circuit](https://user-images.githubusercontent.com/89601540/154182960-c2e8580e-5413-4804-b0fa-d2d38fa6cfc5.PNG)
+    3. When should you use a SPST rather than a SPDT?
+3. Experiment 7: Relay-Driven LED's
+    1. ![IMG_8237](https://user-images.githubusercontent.com/89601540/156044209-d7220e84-8a1b-4f8d-893a-a9ff2c52e1f3.jpg)
+
+    2. When I'm not pressing the button, the first LED is lit up.
+    3. ![IMG_8238](https://user-images.githubusercontent.com/89601540/156044231-aad0e614-f409-486e-a49e-df6beb1d50fd.jpg)
+
+    4. When I am pressing the button, the second LED is lit up. When I release it, the first LED is lit up and the second goes out.
+    5. ![IMG_8239](https://user-images.githubusercontent.com/89601540/156044254-3a6f00ac-6440-47cd-b7f6-cd6e31d82449.jpg)
+
+    6. This is just a better picture of my circuit.
+    7. What purpose do relays serve?
+4. Experiment 8: A Relay Oscillator
+    1. Think of a resistor as a faucet and the capacitor as a balloon that is filling up with water. The balloon stops filling with water when the pressure inside the balloon is equal to the pressure in the pipe, regardless of how quickly the balloon fills up. The capacitor quits charging when it's voltage is the same as the supply's voltage. The resistance between the power supply and capacitor determines how quickly the capacitor charges.
+    2. Capacitors that are large can hold a large voltage and can zap you if you touch it. 
+    3. Capacitors can blow up if they are connected with the wrong current direction. 
+    4. ![IMG_8240](https://user-images.githubusercontent.com/89601540/156044454-bd08e86a-74e1-49fc-bf34-4e7406ef0e90.jpg)
+
+    5. When I press the button, the second LED switches on and the first LED slowly switches off. 
+    6. ![IMG_8241](https://user-images.githubusercontent.com/89601540/156044474-ea670139-4746-4ab2-97be-c48f828f8e2d.jpg)
+
+    7. When I was switching out capacitors, the time that the LED's took to dim changed. It changed quicker with smaller capacitors that hold a smaller voltage. It took longer to discharge on larger capacitors.
+    8. What would happen if you add another capacitor in parallel?
+5. Experiment 9: Time and Capacitors
+    1. ![IMG_8242](https://user-images.githubusercontent.com/89601540/156044677-797e5eb9-fb92-49d8-b914-e1f55ee326e8.jpg)
+
+    2. As I pushed and held the button, the circuit connected, which charged the capacitor. I could see the voltage increasing the longer I held the button down. When I released the button, the voltage slowly started to drop, discharging the capacitor.
+    3. Does the current decrease along with the voltage within the capacitor?
+6. Experiment 10: Transistor Switching
+    1. ![IMG_8244](https://user-images.githubusercontent.com/89601540/156044755-22552e17-ab3d-401b-8f02-34e0cd2a63a5.jpg)
+
+    2. This is the circuit containg a transistor LED and pushbutton. When I am not pressing on the button, the circuit is not complete and the LED is not on.
+    3. ![IMG_8245](https://user-images.githubusercontent.com/89601540/156044779-361415b9-dba4-40d1-8de5-5d50c6b4d34b.jpg)
+
+    4. When I press on the button, the LED lights up. The transisor spits out a voltage but recieves voltage from two different spots.
+    5. What is the purpose of transistors?
+
+
+
+## Week 6
+
+### Context
+
+- The article "Igloo White" by John Corell talks about the USA's defense plan of South Korea from a North Korean invasion. They used many different types of sensors including sound and hormone sensors to detect when trucks or people are within the area or trying to cross the border. If there is need for defensive measures, he mentions, " If circumstances warranted, strike aircraft might be on the scene in five minutes. The sensors continuously updated the location of the trucks as the strike aircraft approached." The article "Unseen Scensors: Constantly Sensing but Rarely Seen" by Mayo Nissen is an article about the many different types of sensors that have been created since entering this age of information. There are sensors that detect the amount of water a building is using to, sensors detecting heavy flows of traffic to, others that detect parked cars. These are just the sensors we know about. I thought it was kind of scary to see the large amount of sensors and how people are using this data. There might be some sensors that we don't see. Do you think it is wrong to have sensors that are hidden to the public?
+
+
+### Experiments
+
+### Monk Chapter 6: Python Lists and Dictionaries
+1. Introduction
+2. Creating a List
+    1. a = []
+4. Accessing Elements of a List
+    1. a = [32, 'Fred', 12, False, 72.3]
+    2. a[1] = 'Fred'
+6. Finding the Length of a List
+    1. a = [32, 'Fred', 12, False, 72.3]
+    2. len(a) = 5
+8. Adding Elements to a List
+    1. a = [32, 'Fred', 12, False, 72.3]
+    2. a.append('new')
+    3. a = [32, 'Fred', 12, False, 72.3, 'new']
+    4. a.insert(indexed position, variable to insert)
+    5. Use insert for a certain position but not replace the current variable.
+    6. b = [74, 75]
+    7. a.extend(b) = [32, 'Fred', 12, False, 72.3, 74, 75]
+10. Removing Elements from a List
+    1. a.pop() removes last element of the list
+    2. a.pop(0) removes the first element of the list
+12. Creating a List by Parsing a String
+    1. 'abc def ghi'.split() = [abc, def, ghi]
+    2. Splits individual words into an array, wherever it is separated by spaces.
+    3. 'abc,def,ghi'.split(',') = ['abc', 'def', 'ghi']
+15. Iterating Over a List
+    1. a = [32, 'Fred', 12, False, 72.3]
+    2. for x in a:
+    3. print(x)
+    4. It will then print out each element of the array.
+17. Enumberating a List
+    1. a = [32, 'Fred', 12, False, 72.3]
+    2. for (i, x) in enumerate(a):
+    3. print(i, x)
+    4. (0, 32)
+    5. (1, 'Fred')
+    6. (2, 12)
+    7. (3, False)
+    8. (4, 72.3)
+19. Sorting a List
+    1. a = ['It', 'Was', 'The', 'Best', 'Of', 'Times']
+    2. a.sort()
+    3. a = ['Best', 'It', 'Of', 'The', 'Times', 'Was']
+21. Cutting Up a List
+    1. a = ['a', 'b', 'c', 'd']
+    2. a[:3] = ['a', 'b', 'c']
+    3. a[3:] = ['d']
+23. Applying a Function to a List
+    1. a = ['abc', 'def', 'ghi', 'jkl']
+    2. [x.upper() for x in a]
+    3. a = ['ABC', 'DEF', 'GHI', 'JKL']
+25. Creating a Dictionary
+    1. a = {key1 : value1, key2 : value2}
+27. Accessing a Dictionary
+    1. a = {'Simon' : '0123456789'}
+    2. a['Simon'] = '0123456789'
+29. Removing Entries from a Dictionary
+    1. a = {'Simon' : '0123456789'}
+    2. a.pop('Simon')
+31. Iterating Over Dictionaries    
+    1. a = {'Simon' : '0123456789', 'Jane' : '9876543210'}
+    2. for name, num in a.items():
+    3. print(name + ' ' + num)
+    4. Jane 9876543210
+    5. Simon 0123456789
+
+
+## Week 7
 
 
 ### Context
