@@ -404,6 +404,33 @@ In "Pay for the Printer" by Philip K Dick, the setting takes place in a post apo
 
 ### Experiments
 
+
+### Platt Chapter 2: Switching Basics and More (Continued)
+1. Experiment 11: A Modular Project
+    1. Slow Speed Oscillation: ![IMG_8297](https://user-images.githubusercontent.com/89601540/157367652-f1aa3db6-83b2-4c1e-a738-cdfce56f6ed2.jpg)
+
+    2. Beyond The Persistence Of Vision:![IMG_8298](https://user-images.githubusercontent.com/89601540/157367669-be85b84d-da80-4e2b-8a8c-a071079675ee.jpg)
+
+    3. Amplification:![IMG_8300](https://user-images.githubusercontent.com/89601540/157367697-7711952e-5ec9-44af-9ed6-f4bb4bbd3a81.jpg)
+
+    4. Pulsed Output![IMG_8301](https://user-images.githubusercontent.com/89601540/157367712-1c309076-9a18-41d0-b1cc-0ceb9927ba4d.jpg)
+
+    5. How would you go about amplifying the volume of the speaker?
+
+
+### Platt Chapter 3: Getting Somewhat More Serious
+1. Experiment 12: Joining Two Wires Together
+    1. You can strip a wire using wire strippers. You have to make sure that the wire is the same gauge as the whole you put the wire through. You can then pull the plastic off of the wire after you pull it through the wire stripper.
+    2. Here is my soldered and stripped wires.
+    3. ![IMG_8302](https://user-images.githubusercontent.com/89601540/157367819-903f7b59-529d-432a-8585-e45dcb126cad.jpg)
+
+    4. Some hazards of soldering electronics are the fumes of the solder melting. These fumes are very hazardous and can lead to respiratory problem. You can also burn yourself with the soldering iron, because the soldering iron gets very hot.
+    5. What is one method of getting rid of the fumes while you are soldering?
+2. Experiment 13: Broil an LED
+    1. The purpose of a heat sink is to divert some of the heat coming from the soldering iron to a different conductor that isn't heat sensitive and won't be destroyed. Many electronics components are sensitive to heat and can be destroyed when exposed to too much of it.
+
+
+
 ### Monk Chapter 6: Python Lists and Dictionaries
 1. Introduction
 2. Creating a List
