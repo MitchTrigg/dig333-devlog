@@ -498,8 +498,85 @@ In "Pay for the Printer" by Philip K Dick, the setting takes place in a post apo
     5. Simon 0123456789
 
 
+
 ## Week 7
 
+### Experiments
+
+<!-- List each Platt experiment / Monk recipe outcome, adding notes, photos, schematics, captions to show your work. -->
+
+1. Name of the experiment
+    1. Text, photos, etc.
+    1. Describe the most important thing you learned (to share in class)
+    1. Write a quiz question (which we will discuss in class)
+
+### Monk Chapter 8: Computer Vision
+
+
+
+### Monk Chapter 9: Hardware Basics
+
+1. Introduction
+2. Finding Your Way Around the GPIO Connector
+    1. The 40 pin layout contains the same pins as the 26 pin layout, along with three extra ground connections, nine GPIO pins, and an ID_SD and ID_SC pins.
+    2. Digital pins can only send and recieve binary inputs and outputs while the analog pins can give inputs and outputs signals in a range between 1 and 0.
+3. Keeping Your Raspberry Pi Safe When Using the GPIO connector
+    1. Don't power the Pi with more than 5V.
+    2. Don't put more than 3.3V into a GPIO pin.
+    3. Don't touch the Pi with metal when it is powered on.
+4. Setting Up I2C
+5. Setting Up SPI
+6. Using a Breadboard with Jumper Leads
+    1. Below is an image of the RaspberryPi connected to a breadboard with connecting cables.
+    2. ![IMG_8306](https://user-images.githubusercontent.com/89601540/159597207-c1cfdf2a-1cf2-44e1-91a3-10256b272ab8.jpg)
+7. Using a Breadboard with a Pi Cobbler
+    1. An advantage of using the cobbler is that you can assemble the needed electronic components and wires on the breadboard, then easily connect the cobbler to the breadboard.
+8. Using a Raspberry Squid
+    1. The Raspberry Squid is an LED that can light up red, blue, and green that can also be connected directly to the Raspberry Pi.
+9. Converting 5V Signals to 3.3V with Two Resistors
+10. Converting 5V Signals to 3.3V with a Level Converter Module
+11. Powering a Raspberry Pi with Batteries
+    1. You should not try to power your Pi with more or less than 5V.
+    2. Typically you would use a larger batter like a 9V battery, then use a voltage regulator to drop the battery voltage to 5V.
+12. Powering a Raspberry Pi with a LiPo Battery
+13. Using a Pi Plate Prototyping Board
+14. Making a HAT
+15. The Pi Zero and Pi Zero W
+
+
+
+### Monk Chapter 10: Controlling Hardware
+
+1. Introduction
+2. Connecting an LED
+    1. The GPIO Zero library allows programmers to import the pins directly into the software and use them.
+    2. The RPI GPIO accomplishes the same thing, except the code is more complicated.
+    3. For the GPIO Zero:
+    4. from gpiozero import LED
+    5. led = LED(12)
+    6. led.on()
+    7. For the RPI GPIO
+    8. import RPi.GPIO
+    9. ledPin = 12
+    10. GPIO.setmode(GPIO.BCM)
+    11. GPIO.setup(ledPin, GPIO.Out)
+    12. GPIO, output(ledPin, GPIO.High)
+3. Leaving the GPIO Pins in a Safe State
+    1. When you exit a program using the GPIO pins, the pins are put into a safe state meaning their outputs are reset so that you don't have any troubles if you wanted to start a new project with the same Raspberry Pi.
+4. Controlling the Brightness of an LED
+    1. Complete in class
+6. Switching a High-Power DC Device Using a Transistor
+7. Switching a High-Power Device Using a Relay
+8. Controlling High-Voltage AC Devices
+9. Controlling Hardware with Android and Bluetooth
+10. Making a User Interface to Turn Things On and Off
+11. Making a User Interface to Control PWM Power for LEDs and Motors
+12. Changing the Color of an RGB LED
+13. Using an Analog Meter as a Display
+    1. Complete in class
+
+
+## Week 8
 
 ### Context
 
