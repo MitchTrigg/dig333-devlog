@@ -573,7 +573,28 @@ In "Pay for the Printer" by Philip K Dick, the setting takes place in a post apo
 11. Making a User Interface to Control PWM Power for LEDs and Motors
 12. Changing the Color of an RGB LED
 13. Using an Analog Meter as a Display
-    1. Complete in class
+
+
+
+## Final Project Milestones:
+
+### Milestone 1: Complete Stepper Motor Control
+
+- Goal was to have a chassy that could move by itself with code.
+- This is the circuit used for the stepper motor.
+- ![schematic](https://user-images.githubusercontent.com/89601540/163267191-950ed6b2-b79d-44f3-b3cb-6f2a8033d958.PNG)
+- This link is the link that I used to complete the code for the stepper motor. https://learn.adafruit.com/adafruits-raspberry-pi-lesson-10-stepper-motors/configure-and-test
+- This is the image of my circuit and chassy.
+- ![IMG_8546](https://user-images.githubusercontent.com/89601540/163268549-7db297d9-b427-42f2-bf05-1eb7061bcd7b.jpg)
+
+### Milestone 2: Constructing the Body
+
+- Goal was to create the body of the robot by 3D printing it.
+- The 3D printer wasn't working so I had to create it out of wood.
+- I will have to clean it up some, and can't completely finish it because I need to install the servo motor in the head.
+- This is the decorative part of the robot.
+- ![IMG_8547](https://user-images.githubusercontent.com/89601540/163268899-3fcede68-3eb2-4bd9-aea4-42165ca71ed2.JPG)
+
 
 
 ## Week 8
