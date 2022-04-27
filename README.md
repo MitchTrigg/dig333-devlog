@@ -602,10 +602,11 @@ In "Pay for the Printer" by Philip K Dick, the setting takes place in a post apo
 - I drilled holes in the face then thread two wires through it and attached them to the rubber band.
 - I then attached the wires to the servo motor arm.
 - The servo motor spins, pulling the wires, pulling the rubber band down so that the rubber band (being the mouth) turns into a frown.
-- 
+- ![IMG_8644](https://user-images.githubusercontent.com/89601540/165426830-9c46a552-3662-4ce7-b0e6-4761f3988c86.jpg)
+
 
 https://user-images.githubusercontent.com/89601540/165426566-33f3546b-eeed-4dec-8fb6-d3853dfd3e3d.MOV
-
+- Will need to fix the servo motor to the inside of the head and tweak the length of the wires a little bit.
 
 
 
