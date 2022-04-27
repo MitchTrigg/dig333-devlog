@@ -596,6 +596,25 @@ In "Pay for the Printer" by Philip K Dick, the setting takes place in a post apo
 - ![IMG_8547](https://user-images.githubusercontent.com/89601540/163268899-3fcede68-3eb2-4bd9-aea4-42165ca71ed2.JPG)
 
 
+### Milestone 3: Getting the Servo Motor Working
+- Goal was to code the servo motor so that it spun far enough to pull this rubber band down indicating a frown.
+- I glued a wooden mouth to the head and set a rubber band atop it.
+- I drilled holes in the face then thread two wires through it and attached them to the rubber band.
+- I then attached the wires to the servo motor arm.
+- The servo motor spins, pulling the wires, pulling the rubber band down so that the rubber band (being the mouth) turns into a frown.
+- 
+
+https://user-images.githubusercontent.com/89601540/165426566-33f3546b-eeed-4dec-8fb6-d3853dfd3e3d.MOV
+
+
+
+
+
+
+
+
+
+
 
 ## Week 8
 
