@@ -609,29 +609,23 @@ https://user-images.githubusercontent.com/89601540/165426566-33f3546b-eeed-4dec-
 - Will need to fix the servo motor to the inside of the head and tweak the length of the wires a little bit.
 
 
+### Milestone 4: Butter Transportation
+- I wasn't expecting to put the chip at the top of the robot, but that is how it worked out. 
+- I accidently broke up the robot after I glued him all together. It would have been better with a 3d printer, or some nails, but those were unavailable. 
+- I wasn't able to get a great video of the motor movement, I took this one before I built the head. If I wouldn't have accidently unglued him, I would have had a better video.
+- https://user-images.githubusercontent.com/89601540/167278717-1ab62aad-ad72-4acd-9866-f223e55aaeb4.mov
+- This is the video of the face turning into a frown, signifiying the frown and negative emotion. 
+- https://user-images.githubusercontent.com/89601540/167278898-3130341f-8d0a-4588-924d-9850f7adaa23.MOV
 
 
 
+### Creative Statement
 
+    The purpose of this project was to create an electronic device using a raspberry pi that would have both a useful function and an useless function. I built a robot that can transport butter across a dinner table. It's useful function is transporting butter across the kitchen table, addressing the serious problem facing our society of having to manually pick up butter and pass it to a family member. The useless function of the robot is that it can frown. It exhibits negative emotion, not for any reason but to make you sad.    
+    
+    This project had both exciting and frustrating moments. Exciting ones included getting the servo to properly move the face into a frowning position. I was worried about the strength of the servo motor, being able to pull the wires and rubber bands. I thought that the servo motor would have to be placed in the perfect spot for it to work, but it ended up working perfectly the first try. One of the most frustrating moments was soldering the components and wires onto the chip. This was because of how close the components were to eachother on the chip. I was unsure how to create or get the tires for the stepper motor. The axles on the motor had different radi, so I would have needed to get two different types of tires for the project or to come up with a better solution. In the Physics department, we have to make racers as a part of the Vernon Miller Case Symposium. I asked Keith Frye, a compoenents mechanic for the Physics department if he could make me little wheel axle setup, replicating the racers. He was able to make me a three wheel rig that was attached to the stepper motor. This help I recieved from Keith was vital for the start and completion of my project. The stepper motor is able to rotate both clockwise and counter clockwise. This allows for both forwards and backwards movement. You are able to adjust the speed and the number of steps the motor rotates, allowing for precise movements. The servo motor spins an arm that are attached to a rubber band, signifying a mouth. This arm is at first pointed towards the mouth, allowing for a lot of slack, but then the code runs, and the arm spins 180 degrees in the opposite direction, getting rid of the slack and tightening the rubber band creating a frown.
+    
+    The code that I used for the stepper motor I got from an adafruit tutorial that involved using a ULN2803 chip that allowed the stepper motor to use GPIO pins on the Raspberry Pi. The code has an input for the delay of the stepper motor, acting as the speed of the robot. The code's other inputs were the number of steps both forwards and backwards. The steps act as the distance the robot travels. The tutorial also had a schematic, detailing how the wiring should be set up. I also had to add an extra voltage to make the magnets spin better. As for the servo motor, I recieved a tutorial on youtube that showed the wiring and code and was pretty simple to set up.
+    
+    The inspirtation for my project came from one of my favorite TV shows Rick and Morty. In one of the episodes, Rick built a robot that passed butter across a table. After completing it's task, it asks Rick what his purpose is. Rick responds with a casual tone that he passes butter. The robot then looks at his hands and exclaims about how purposeless his own existence is. 
 
-
-
-
-## Week 8
-
-### Context
-
-- Summarize the article(s) in 3-4 sentences. Also include...
-- 1 quote from the reading(s)
-- 1 related comment on the reading(s)
-- 1 related follow-up question (what question does it bring up for you?)
-
-
-### Experiments
-
-<!-- List each Platt experiment / Monk recipe outcome, adding notes, photos, schematics, captions to show your work. -->
-
-1. Name of the experiment
-    1. Text, photos, etc.
-    1. Describe the most important thing you learned (to share in class)
-    1. Write a quiz question (which we will discuss in class)
